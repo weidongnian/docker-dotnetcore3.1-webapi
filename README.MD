@@ -93,3 +93,7 @@ create app by use dotnet core 3.1 webapi and docker for macbook
 
 15，docker的结构图
     ![Image text](https://images2018.cnblogs.com/blog/285763/201711/285763-20171127173336972-172418048.png)
+
+16，建议在解决方案根目录执行docker build
+
+    docker build -t 影像名称 解决方案根目录/项目目录/.
