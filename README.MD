@@ -71,6 +71,8 @@ create app by use dotnet core 3.1 webapi and docker for macbook
 11，运行镜像,临时生成一个叫mymicroservicecontainer的镜像实例
 
     docker run -it --rm -p 3000:80 --name mymicroservicecontainer mymicroservice
+    
+    docker run -it --rm -p 3000:80 --name 服务名称 影像名称:Tag
 
 12，查看正在运行的docker实例
 
