@@ -72,6 +72,8 @@ create app by use dotnet core 3.1 webapi and docker for macbook
 
     docker run -it --rm -p 3000:80 --name mymicroservicecontainer mymicroservice
     
+    docker run -it -p 3000:80 --name mymicroservicecontainer mymicroservice
+    
     docker run -it --rm -p 3000:80 --name 服务名称 影像名称:Tag
 
 12，查看正在运行的docker实例
